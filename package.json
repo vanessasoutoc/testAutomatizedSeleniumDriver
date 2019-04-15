@@ -1,0 +1,32 @@
+{
+  "name": "testautomatizedseleniumwebdriver",
+  "version": "1.0.0",
+  "description": "Lab of create test automatized with selenium-driver",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "SELENIUM_BROWSER=chrome & mocha --timeout 10000 test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanessasoutoc/testAutomatizedSeleniumDriver.git"
+  },
+  "keywords": [
+    "selenium-drive",
+    "automatized",
+    "javascript"
+  ],
+  "author": "Vanessa Souto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanessasoutoc/testAutomatizedSeleniumDriver/issues"
+  },
+  "homepage": "https://github.com/vanessasoutoc/testAutomatizedSeleniumDriver#readme",
+  "dependencies": {
+    "chromedriver": "^2.46.0",
+    "fs": "0.0.1-security",
+    "mocha": "^6.1.3",
+    "mocha-logger": "^1.0.6",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
